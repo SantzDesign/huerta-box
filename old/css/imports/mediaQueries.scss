@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1430px) {
+  .intro { @include background-size(inherit); }
+}
+
+@media only screen and (min-width: 861px) and (max-width: 935px) {
+  .what h1 { font-size: 60px; }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 860px) {
+  .what h1 { font-size: 50px; }
+}
+
+@media only screen and (max-width: 860px) {
+  .what .summary { padding: 40px 320px 0 0; }
+}
+
+@media only screen and (max-width: 820px) {
+  .what .summary { padding: 40px 310px 0 0; }
+}
+
+@media only screen and (max-width: 800px) {
+  .intro {
+    padding: 45px 0 140px;
+    background-image: url(../images/background-small.jpg);
+
+    @include background-size(inherit);
+  }
+
+  #logo {
+    padding: 25px 0;
+
+    a {
+      width: 116px;
+      height: 105px;
+
+      @include background-size(116px 163px);
+    }
+  }
+
+  .post-stamp {
+    width: 55px;
+    height: 57px;
+    background-position: 0 -106px;
+    right: -5px;
+
+    @include background-size(116px 163px);
+  }
+
+  .intro-detail {
+    height: 128px;
+
+    @include background-size(710px 128px);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body { font-size: 14px; }
+
+  .what .summary { padding: 40px 200px 0 0; }
+}
+
+@media only screen and (max-width: 710px) {
+  .what {
+    h1 { padding: 20px 0 0; }
+    
+    .summary { padding: 40px 0 0 0; }
+
+    .overflow-fix {
+      text-align: center;
+      position: static;
+      margin: -220px 0 0;
+    }
+  }
+
+  .illustration {
+    margin: 0;
+    float: none;
+  }
+
+  .container .seven.columns,
+  .container .nine.columns { width: 100%; }
+
+  .contact .overflow-fix { top: 706px; }
+}
+
+@media only screen and (max-width: 690px) {
+  .container .one-third.column,
+  .container .two-thirds.column { width: 100%; }
+}
+
+@media only screen and (max-width: 670px) {
+  .container .eight.columns { width: 100%; }
+}
+
+@media only screen and (max-width: 570px) {
+  .intro h1 { font-size: 70px; }
+}
+
+@media only screen and (max-width: 470px) {
+  .epocas {
+    float: none;
+    margin: 0;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+
+
+    span {
+      margin: 0 10px 0 0;
+
+      &.symbol { left: 5px; }
+    }
+  }
+
+  .social-plugins .clear { display: block; }
+
+  .social-plugins { padding: 55px 0 0; }
+}
+
+@media only screen and (max-width: 440px) {
+  .intro h6 { font-size: 17px; }
+}
+
+@media only screen and (max-width: 390px) {
+  .what h1 { font-size: 55px; }
+}
+
+@media only screen and (max-width: 380px) {
+  .intro h1 { font-size: 60px; }
+}
+
+@media only screen and (max-width: 330px) {
+  .intro h1 { font-size: 50px; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+
+  img { max-width: 50%; }
+
+}

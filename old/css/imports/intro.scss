@@ -1,0 +1,43 @@
+#logo {
+  padding: 50px 0;
+  position: relative;
+
+  a {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 232px;
+    height: 210px;
+    background: url(../images/sprite.png) 0 0 no-repeat;
+
+    @include text-replace;
+  
+    &:hover, &:focus { @include animation(shake 150ms linear 2); }
+  }
+}
+
+.intro {
+  z-index: 10;
+  background: #aad47b url(../images/background.jpg) center center no-repeat;
+  padding: 90px 0 280px;
+  text-align: center;
+
+  @include background-size(100% 100%);
+
+  h1 { font-size: 100px; }
+
+  h6 {
+    position: relative;
+    margin: 80px auto 0;
+    max-width: 410px;
+  }
+}
+
+.intro-detail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../images/layers/divider.png) center bottom no-repeat;
+  height: 257px;
+}

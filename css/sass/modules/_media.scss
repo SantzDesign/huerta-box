@@ -1,0 +1,117 @@
+// Media Queries
+
+@media only screen and (max-width: 740px) {
+  .about-main { max-width: 340px; }
+
+  .about-illustration {
+    .illustration-box { margin: -198px 0 0 20px; }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation {
+    top: 26px;
+    left: 15px;
+    right: 15px;
+
+    > .navigation-facebook { margin: 0 0 0 11px; }
+
+    > .navigation-item { padding: 4px 8px 5px; }
+  }
+
+  .col-md-3, .col-md-6, .col-md-9,
+  .col-md-12, .col-md-4, .col-md-8 { padding: 0 26px; }
+
+  .container-inner {
+    .col-md-3, .col-md-6, .col-md-9,
+    .col-md-12, .col-md-4, .col-md-8 { padding: 0 26px; }
+  }
+
+  .team { padding: 46px 0 10px; }
+
+  .tomato, .lemon { display: none; }
+}
+
+@media only screen and (max-width: 600px) {
+  .team { padding: 46px 0 0; }
+
+  .team-head { margin: 0 0 40px; }
+
+  .team-member { margin: 0 0 30px; }
+
+  .col-md-6, .col-md-4 { width: 100%; }
+
+  .about { padding: 20px 0 0; }
+
+  .about-main {
+    max-width: none;
+    margin: 0 0 30px;
+  }
+
+  .about-illustration {
+    .illustration-box { display: none; }
+  }
+
+  .about-process-step { margin: 0 0 30px; }
+
+  .boxes {
+    .content { margin: 0 auto 28px; }
+  }
+
+  .boxes-switch { margin: 0 0 42px; }
+
+  .box {
+    &.box-classic { margin: 0 0 -6px; }
+    &.box-aromatics { margin: 0 0 10px; }
+    &.box-mexican { margin: 0 0 30px; }
+    &.box-chef { margin: 0 0 70px; }
+  }
+
+  .box-list {
+    width: 100%;
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .contact {
+    margin: 0;
+
+    .content { margin: 0 0 10px; }
+
+    .facebook { margin: 0 0 40px; }
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .navigation {
+    > .navigation-item:last-child { margin: 0 11px; }
+
+    > .navigation-item {
+      display: none;
+
+      &:last-child {
+        display: block;
+        border-color: rgba(255, 255, 255, 0.3);
+        padding: 4px 13px 5px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  h1, .h1 { font-size: 34px; }
+
+  .intro { min-height: 560px; }
+
+  header { margin: -155px auto 0; }
+}
+
+@media only screen and (max-width: 380px) {
+  .switch {
+    width: 80px;
+
+    &.is-winter {
+      .switch-luminary { @include transform(translateX(30px)); }
+    }
+  }
+}

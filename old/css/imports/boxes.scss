@@ -1,0 +1,76 @@
+.boxes {
+  background: #79BD9A url(../images/layers/3.png);
+
+  .gradient { padding: 90px 0 250px; }
+
+  h1 {
+    color: #0c5f34;
+    padding: 0 0 20px;
+  }
+}
+
+.box {
+  text-align: center;
+
+  img { display: inline-block; margin: 45px -12px 10px 0; }
+
+  .subtitle { color: #437c5f; }
+
+  h3 { color: #0c5f34; }
+
+  figure {
+    height: 300px;
+    background: rgba(0, 0, 0, .1);
+  }
+
+  ul {
+    position: relative;
+    padding: 70px 20px 20px;
+    list-style: none;
+    min-height: 154px;
+
+    li {
+      display: inline-block;
+      margin: 2px 0;
+      padding: 4px 8px 5px;
+      background: #9bdbba;
+      color: #266f4a;
+
+      @include border-radius(3px);
+    }
+
+    &:before {
+      content: '*';
+      position: absolute;
+      top: 25px;
+      left: 49%;
+      font-weight: 900;
+      font-size: 22px;
+    }
+
+    &.verano:before { color: #d5453e; }
+    &.invierno:before { color: #0a6492; }
+  }
+}
+
+.epocas {
+  float: right;
+  margin: 35px 0 0;
+
+  span {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0 0 0 10px;
+
+    &.symbol {
+      font-size: 25px;
+      position: relative;
+      top: 7px;
+      left: -3px;
+    }
+
+    &.verano { color: #d5453e; }
+    &.invierno { color: #0a6492; }
+  }
+}

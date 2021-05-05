@@ -1,0 +1,89 @@
+.logo {
+  @include size(88px 110px);
+  margin: 0 auto 20px;
+  background: url(../images/logo.png) no-repeat;
+  background-size: 88px 110px;
+}
+
+.texture {
+  height: 330px;
+  background: url(../images/texture.png) center 0 no-repeat;
+  background-size: 2400px 330px;
+}
+
+.lemon {
+  @include size(340px);
+  background: url(../images/lemon.jpg) no-repeat;
+  background-size: 340px 340px;
+  margin: 0 auto;
+}
+
+.lettuce {
+  @include size(480px);
+  background: url(../images/lettuce.jpg) no-repeat;
+  background-size: 480px 480px;
+  margin: -3px 0 0 -240px;
+}
+
+.tomato {
+  @include size(490px 300px);
+  background: url(../images/tomato.jpg) no-repeat;
+  background-size: 490px 300px;
+  margin: 0 auto 61px;
+}
+
+.pepper {
+  @include size(308px 204px);
+  background: url(../images/pepper.jpg) no-repeat;
+  background-size: 308px 204px;
+  margin: 0 auto 13px;
+}
+
+.illustration-box {
+  @include size(520px 400px);
+  background: url(../images/box.jpg) no-repeat;
+  background-size: 520px 400px;
+}
+
+.illustration-grass {
+  @include size(402px 336px);
+  background: url(../images/grass.png) no-repeat;
+  background-size: 402px 336px;
+}
+
+.box {
+  .illustration {
+    @include size(120px);
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+  }
+}
+
+.box-classic {
+  .illustration { background-image: url(../images/classic.jpg); }
+}
+
+.box-aromatics {
+  .illustration { background-image: url(../images/aromatics.jpg); }
+}
+
+.box-mexican {
+  .illustration { background-image: url(../images/mexican.jpg); }
+}
+
+.box-chef {
+  .illustration { background-image: url(../images/chef.jpg); }
+}
+
+.illustration-build { background-image: url(../images/wood.jpg); }
+.illustration-earth { background-image: url(../images/earth.jpg); }
+.illustration-plant { background-image: url(../images/plant.jpg); }
+
+.illustration-build,
+.illustration-earth,
+.illustration-plant {
+  margin: 0 auto 20px;
+  @include size(120px 90px);
+  background-size: 120px 90px;
+  background-repeat: no-repeat;
+}

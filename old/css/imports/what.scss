@@ -1,0 +1,26 @@
+.what {
+  background: #A8DBA8 url(../images/layers/2.png);
+  padding: 70px 0 100px;
+  color: #499131;
+
+  h1 { padding: 0 340px 0 0; }
+
+  .summary {
+    padding: 40px 340px 0 0;
+    text-indent: .75em;
+  }
+
+  .overflow-fix { top: -150px; }
+}
+
+.illustration {
+  margin: 0 -40px 0 40px;
+  float: right;
+}
+
+.step {
+  text-align: center;
+  margin: 30px 0 0;
+
+  p { padding: 10px 30px 0; }
+}

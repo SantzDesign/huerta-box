@@ -1,0 +1,50 @@
+.container                                   { position: relative; max-width: 810px; padding: 0; margin: 0 auto; }
+
+.col-md-3, .col-md-6, .col-md-9,
+.col-md-12, .col-md-4, .col-md-8             { float: left; display: inline; padding: 0 40px; }
+
+.container-inner {
+  padding: 0 15px;
+
+  .col-md-3, .col-md-6, .col-md-9,
+  .col-md-12, .col-md-4, .col-md-8           { padding: 0 25px; }
+}
+
+.row                                         { margin: 0 0 20px; }
+
+.container .alpha                            { padding-left: 0; }
+.container .omega                            { padding-right: 0; }
+
+.col-md-3                                    { width: 25%; }
+.col-md-6                                    { width: 50%; }
+.col-md-9                                    { width: 75%; }
+.col-md-12                                   { width: 100%; }
+
+.col-md-4                                    { width: 33.33333333%; }
+.col-md-8                                    { width: 66.66666667%; }
+
+// Self-clearing goodness
+
+.container:after { content: '\0020'; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before, .clearfix:after,
+.row:before, .row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1; }
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

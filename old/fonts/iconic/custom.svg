@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="iconic" horiz-adv-x="1000" >
+<font-face font-family="iconic" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="heart" unicode="&#xe801;" d="m790 644q70-64 70-156t-70-158l-360-330l-360 330q-70 66-70 158t70 156q62 58 151 58t153-58l56-52l58 52q62 58 150 58t152-58z" horiz-adv-x="860" />
+<glyph glyph-name="paper-plane" unicode="&#xe802;" d="m894 720q14 4 22-3t4-19q-2-6-72-310t-74-316q-2-14-14-19t-24 1l-248 134l-30 16l22 26q388 420 394 426q4 4-1 9t-9 1l-550-402l-112 44l-190 76q-12 4-12 12t12 12q8 4 441 157t441 155z m-582-728l0 204l160-82q-130-116-142-128q-18-14-18 6z" horiz-adv-x="921" />
+<glyph glyph-name="facebook" unicode="&#xe803;" d="m500 644l-142 0q-14 0-25-15t-11-37l0-102l178 0l0-148l-178 0l0-442l-170 0l0 442l-152 0l0 148l152 0l0 86q0 94 59 159t147 65l142 0l0-156z" horiz-adv-x="500" />
+<glyph glyph-name="ok" unicode="&#xe800;" d="m0 339q0-35 24-60l246-239q24-25 60-25q36 0 60 25l505 495q25 24 25 59t-25 58q-25 25-60 25t-60-25l-445-435l-185 181q-25 24-60 24t-61-24q-24-24-24-59z" horiz-adv-x="920.4" />
+</font>
+</defs>
+</svg>

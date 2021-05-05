@@ -1,0 +1,48 @@
+// Headings
+
+h1, .h1, h2, .h2, h3, .h3,
+h4, .h4, h5, .h5, h6, .h6 {
+  line-height: 1.2;
+  margin: 0;
+}
+
+h1, .h1 {
+  letter-spacing: 0.21em;
+  font: $bold 41px $serif;
+  color: #FFFFFF;
+}
+
+h2, .h2 {
+  color: $yellow;
+  font: $bold 38px $serif;
+}
+
+h3, .h3 {
+  color: $yellow;
+  font: $bold 20px $serif;
+}
+
+h4, .h4 {
+  color: $yellow;
+  font: $bold 16px $serif;
+}
+
+h5, .h5 { font-size: 11px; }
+
+h6, .h6 { font-size: 10px; }
+
+// Paragraphs
+
+p { margin: 0; }
+
+.content {
+  p {
+    margin: 0 0 22px;
+
+    &:last-child { margin: 0; }
+  }
+}
+
+// Color
+
+.darkgray { color: $darkgray; }

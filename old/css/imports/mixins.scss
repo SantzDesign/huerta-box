@@ -1,0 +1,88 @@
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+  -moz-transform: translate($x, $y);
+  -ms-transform: translate($x, $y);
+  -o-transform: translate($x, $y);
+  transform: translate($x, $y);
+}
+
+@mixin appearance {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@mixin animation($all) {
+  -webkit-animation: $all;
+  -moz-animation: $all;
+  -o-animation: $all;
+  animation: $all;
+}
+
+@mixin border-radius($px) {
+  -webkit-border-radius: $px;
+  border-radius: $px;
+}
+
+@mixin transition($all) {
+  -webkit-transition: $all;
+  -moz-transition: $all;
+  -o-transition: $all;
+  transition: $all;
+}
+
+@mixin transition3($all1, $all2, $all3) {
+  -webkit-transition: $all1, $all2, $all3;
+  -moz-transition: $all1, $all2, $all3;
+  -o-transition: $all1, $all2, $all3;
+  transition: $all1, $all2, $all3;
+}
+
+@mixin scale($value) {
+  -webkit-transform: scale($value);
+  -moz-transform: scale($value);
+  -ms-transform: scale($value);
+  transform: scale($value);
+}
+
+@mixin transform($all) {
+  -webkit-transform: $all;
+  -moz-transform: $all;
+  -ms-transform: $all;
+  transform: $all;
+}
+
+@mixin translateZ {
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+@mixin box-shadow($all) {
+  -webkit-box-shadow: $all;
+  box-shadow: $all;
+}
+
+@mixin box-shadow-none {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@mixin background-size($xy) {
+  -webkit-background-size: $xy;
+  -moz-background-size: $xy;
+  background-size: $xy;
+}
+
+@mixin text-replace {
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@mixin backface-visibility {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}

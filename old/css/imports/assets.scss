@@ -1,0 +1,59 @@
+.button {
+  position: relative;
+  overflow: hidden;
+  float: right;
+  padding: 15px 28px 15px 26px;
+  font: 800 14px/1 'Roboto', Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 1px #16A085;
+  border: 1px solid #129279;
+  background: #1ABC9C;
+  color: #d9f9e6;
+  margin: 0;
+  cursor: pointer;
+  width: 140px;
+  height: 46px;
+
+  @include border-radius(2px);
+
+  @include transition(all .25s ease);
+
+  @include backface-visibility;
+
+  &:before {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin: -14px 0 0 -15px;
+    opacity: 0;
+
+    @include transition(all .3s ease);
+  }
+
+  span {
+    position: absolute;
+    z-index: 2;
+    background: #1ABC9C;
+    display: block;
+    left: 5px;
+    top: 1px;
+    padding-top: 14px;
+    bottom: 1px;
+    right: 5px;
+
+    @include transition(all .2s ease);
+
+    @include translateZ;
+  }
+
+  &:hover {
+    span {
+      @include transform(translateY(60px));
+    }
+
+    &:before { opacity: 1; }
+  }
+}

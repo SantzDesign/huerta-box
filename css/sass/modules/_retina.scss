@@ -1,0 +1,56 @@
+// @2x
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (   min--moz-device-pixel-ratio: 2),
+       only screen and (     -o-min-device-pixel-ratio: 2/1),
+       only screen and (        min-device-pixel-ratio: 2),
+       only screen and (                min-resolution: 192dpi),
+       only screen and (                min-resolution: 2dppx) {
+
+  .logo { background-image: url(../images/logo@2x.png); }
+  .texture { background-image: url(../images/texture@2x.png); }
+
+  .photo-01 { background-image: url(../images/photo-01@2x.jpg); }
+  .photo-02 { background-image: url(../images/photo-02@2x.jpg); }
+  .photo-03 { background-image: url(../images/photo-03@2x.jpg); }
+  .photo-04 { background-image: url(../images/photo-04@2x.jpg); }
+  .photo-05 { background-image: url(../images/photo-05@2x.jpg); }
+  .photo-06 { background-image: url(../images/photo-06@2x.jpg); }
+  .photo-07 { background-image: url(../images/photo-07@2x.jpg); }
+  .photo-08 { background-image: url(../images/photo-08@2x.jpg); }
+  .photo-09 { background-image: url(../images/photo-09@2x.jpg); }
+  .photo-10 { background-image: url(../images/photo-10@2x.jpg); }
+  .photo-11 { background-image: url(../images/photo-11@2x.jpg); }
+  .photo-12 { background-image: url(../images/photo-12@2x.jpg); }
+  .photo-13 { background-image: url(../images/photo-13@2x.jpg); }
+  .photo-14 { background-image: url(../images/photo-14@2x.jpg); }
+
+  .lemon { background-image: url(../images/lemon@2x.jpg); }
+  .lettuce { background-image: url(../images/lettuce@2x.jpg); }
+  .tomato { background-image: url(../images/tomato@2x.jpg); }
+  .pepper { background-image: url(../images/pepper@2x.jpg); }
+
+  .illustration-box { background-image: url(../images/box@2x.jpg); }
+
+  .box-classic .illustration { background-image: url(../images/classic@2x.jpg); }
+  .box-aromatics .illustration { background-image: url(../images/aromatics@2x.jpg); }
+  .box-mexican .illustration { background-image: url(../images/mexican@2x.jpg); }
+  .box-chef .illustration { background-image: url(../images/chef@2x.jpg); }
+
+  .illustration-build { background-image: url(../images/wood@2x.jpg); }
+  .illustration-earth { background-image: url(../images/earth@2x.jpg); }
+  .illustration-plant { background-image: url(../images/plant@2x.jpg); }
+}
+
+// @3x
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+       only screen and (   min--moz-device-pixel-ratio: 3),
+       only screen and (     -o-min-device-pixel-ratio: 3/1),
+       only screen and (        min-device-pixel-ratio: 3),
+       only screen and (                min-resolution: 288dpi),
+       only screen and (                min-resolution: 3dppx) {
+
+  .logo { background-image: url(../images/logo@3x.png); }
+  .texture { background-image: url(../images/texture@3x.png); }
+}

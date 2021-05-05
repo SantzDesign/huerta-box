@@ -1,0 +1,65 @@
+.wrapper      { width: 100%; overflow: hidden; position: relative; }
+.extra-wrap   { overflow: hidden; display: block; }
+
+/* Base 1200 Grid */      /* Betwen comments you'll find the 1120px grid */
+.container                                { position: relative; max-width: 960px; width: 100%; margin: 0 auto; padding: 0; }
+.container .column,
+.container .columns                       { float: left; display: inline; padding: 0 10px; }
+.row                                      { margin-bottom: 20px; }
+
+/* Nested Column Classes */
+.column.alpha, .columns.alpha             { padding-left: 0; }
+.column.omega, .columns.omega             { padding-right: 0; }
+
+/* Base Grid */
+.container .four.columns                  { width: 20%; }
+.container .six.columns                   { width: 37.5%; }
+.container .seven.columns                 { width: 43.75%; }
+.container .eight.columns                 { width: 50%; }
+.container .nine.columns                  { width: 56.25%; }
+.container .ten.columns                   { width: 62.5%; }
+.container .sixteen.columns               { width: 100%; }
+
+.container .one-third.column              { width: 33.333333333333336%; }
+.container .two-thirds.column             { width: 66.66666666666667%; }
+
+/*  Clearing */
+
+/* Self Clearing Goodness */
+.container:after {
+  content: '\0020';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class='row'> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.row:after,
+.clearfix:after { clear: both; }
+
+.row,
+.clearfix { zoom: 1; }
+
+/* You can also use a <br class='clear' /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

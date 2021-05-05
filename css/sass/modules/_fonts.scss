@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Huerta Box';
+  src: url('../fonts/fontawesome/fontawesome.eot?w56fi0');
+  src: url('../fonts/fontawesome/fontawesome.eot?w56fi0#iefix') format('embedded-opentype'),
+       url('../fonts/fontawesome/fontawesome.ttf?w56fi0') format('truetype'),
+       url('../fonts/fontawesome/fontawesome.woff?w56fi0') format('woff'),
+       url('../fonts/fontawesome/fontawesome.svg?w56fi0#Huerta-Box') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'Huerta Box' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before { content: "\f000"; }

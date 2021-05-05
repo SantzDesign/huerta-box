@@ -1,0 +1,1 @@
+sass --watch huerta.scss:huerta.css --style compressed
