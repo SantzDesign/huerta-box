@@ -20,4 +20,4 @@ User-agent: Mediapartners-Google*
 Disallow:
 Allow: /*
 
-Sitemap: http://huertabox.com/sitemap.xml
+Sitemap: https://huertabox.com/sitemap.xml
